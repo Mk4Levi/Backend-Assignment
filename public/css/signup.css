@@ -270,7 +270,7 @@ h6 {
 /**
 * Mobile Navigation 
 */
-.mobile-nav-toggle {
+/* .mobile-nav-toggle {
   color: #fff;
   font-size: 28px;
   cursor: pointer;
@@ -376,7 +376,7 @@ h6 {
 
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
-}
+} */
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -734,21 +734,21 @@ section {
   display: none;
 }
 
-.why-us .accordion-list a.collapsed {
+/* .why-us .accordion-list a.collapsed {
   color: #343a40;
-}
+} */
 
-.why-us .accordion-list a.collapsed:hover {
+/* .why-us .accordion-list a.collapsed:hover {
   color: #47b2e4;
-}
+} */
 
-.why-us .accordion-list a.collapsed .icon-show {
+/* .why-us .accordion-list a.collapsed .icon-show {
   display: inline-block;
-}
+} */
 
-.why-us .accordion-list a.collapsed .icon-close {
+/* .why-us .accordion-list a.collapsed .icon-close {
   display: none;
-}
+} */
 
 @media (max-width: 1024px) {
 
@@ -1382,22 +1382,22 @@ section {
   display: none;
 }
 
-.faq .faq-list a.collapsed {
+/* .faq .faq-list a.collapsed {
   color: #37517e;
-  transition: 0.3s;
-}
+  transition: 0.3s; 
+} */
 
-.faq .faq-list a.collapsed:hover {
+/* .faq .faq-list a.collapsed:hover {
   color: #47b2e4;
-}
+} */
 
-.faq .faq-list a.collapsed .icon-show {
+/* .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
-}
+} */
 
-.faq .faq-list a.collapsed .icon-close {
+/* .faq .faq-list a.collapsed .icon-close {
   display: none;
-}
+} */
 
 @media (max-width: 1200px) {
   .faq .faq-list {
