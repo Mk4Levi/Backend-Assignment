@@ -84,10 +84,10 @@ app.post("/login", async function (req, res) {
     if (findEmail.dbPassword === userPassword) {
       res.status(201).render("questions");
     } else {
-      res.send("<h1>Invalid Login Details</h1>");
+      res.send("<h1>Invalid Login Credentials</h1>");
     }
   } catch (error) {
-    res.status(400).send("<h1>Invalid Details</h1>");
+    res.status(400).send("<h1>Invalid Credentials</h1>");
   }
 });
 
