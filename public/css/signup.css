@@ -1,11 +1,11 @@
 
-body,
+/* body,
 html {
   margin: 0;
   padding: 0;
   height: 100%;
   background: #96e3ff;
-}
+} */
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -1382,22 +1382,22 @@ section {
   display: none;
 }
 
-/* .faq .faq-list a.collapsed {
+.faq .faq-list a.collapsed {
   color: #37517e;
   transition: 0.3s; 
-} */
+} 
 
-/* .faq .faq-list a.collapsed:hover {
+.faq .faq-list a.collapsed:hover {
   color: #47b2e4;
-} */
+} 
 
-/* .faq .faq-list a.collapsed .icon-show {
+.faq .faq-list a.collapsed .icon-show {
   display: inline-block;
-} */
+}
 
-/* .faq .faq-list a.collapsed .icon-close {
+.faq .faq-list a.collapsed .icon-close {
   display: none;
-} */
+}
 
 @media (max-width: 1200px) {
   .faq .faq-list {
