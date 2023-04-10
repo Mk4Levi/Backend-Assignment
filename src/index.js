@@ -12,7 +12,7 @@ const UserCollection = require("./db/users");
 
 const { json } = require("express");
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 
 const static_path = path.join(__dirname, "../public");
 const templates_path = path.join(__dirname, "../templates/views");
